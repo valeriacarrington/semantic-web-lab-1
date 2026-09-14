@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:mo="http://example.org/movies/ontology#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema1="http://schema.org/"
+>
+  <rdf:Description rdf:about="http://example.org/movies/green">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Eva Green</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/dark_shadows"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/sadler">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>William Sadler</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/final_destination"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/final_destination_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/sleepy_hollow">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Sleepy Hollow</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/burton"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/paramount"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/depp"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/ricci"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Gothic"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Fantasy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/hewitt">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Jennifer Love Hewitt</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/final_destination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/it">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>It</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2017</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/muschietti"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/warner"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/skarsgard"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/goth"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Fantasy"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Thriller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/dimension">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Studio"/>
+    <rdfs:label>Dimension Films</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/scream_2">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Scream 2</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1997</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/craven"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/dimension"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/campbell"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/cox"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/arquette"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/mcgowan"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Slasher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/country_USA">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Country"/>
+    <rdfs:label>USA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/final_destination_2">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Final Destination 2</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/ellis"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/newline"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/sadler"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/cook"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Thriller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/house_of_wax">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>House of Wax</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/collet_serra"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/warner"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/biel"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/cook"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Slasher"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Thriller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/newline">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Studio"/>
+    <rdfs:label>New Line Cinema</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/campbell">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Neve Campbell</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream_2"/>
+    <mo:colleagueOf rdf:resource="http://example.org/movies/cox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/dark_shadows">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Dark Shadows</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2012</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/burton"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/warner"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/depp"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/green"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/bonham_carter"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Gothic"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Comedy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/crimson_peak">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Crimson Peak</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/del_toro"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/legendary"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/hastie"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/goth"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Gothic"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Thriller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/genre_Thriller">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Genre"/>
+    <rdfs:label>Thriller</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/scream">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Scream</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1996</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/craven"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/dimension"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/campbell"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/cox"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/arquette"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/barrymore"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Slasher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/muschietti">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Andy Muschietti</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/barrymore">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Drew Barrymore</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/wrong_turn">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Wrong Turn</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/schmidt"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/legendary"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/goth"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/lillard"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Slasher"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Thriller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/nightmare_before_christmas">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>The Nightmare Before Christmas</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1993</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/selick"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/disney"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/ricci"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Gothic"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Fantasy"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Comedy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/nispel">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Marcus Nispel</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/texas_chainsaw_massacre">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>The Texas Chainsaw Massacre</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2003</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/nispel"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/newline"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/biel"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Slasher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/collet_serra">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Jaume Collet-Serra</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/corpse_bride">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Corpse Bride</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2005</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/burton"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/warner"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_UK"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/depp"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/bonham_carter"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Gothic"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Fantasy"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Comedy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/final_destination">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Final Destination</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2000</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/wong"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/newline"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/sadler"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/hewitt"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Thriller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/legendary">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Studio"/>
+    <rdfs:label>Legendary Pictures</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/edward_scissorhands">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>Edward Scissorhands</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1990</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/burton"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/disney"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/depp"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/ricci"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Gothic"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Fantasy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/bonham_carter">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Helena Bonham Carter</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/dark_shadows"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/corpse_bride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/craven">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Wes Craven</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/ricci">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Christina Ricci</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/sleepy_hollow"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/edward_scissorhands"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/nightmare_before_christmas"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/blair_witch_project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/selick">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Henry Selick</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/del_toro">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Guillermo del Toro</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/skarsgard">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Bill Skarsgard</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/it"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/cox">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Courteney Cox</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream_2"/>
+    <mo:colleagueOf rdf:resource="http://example.org/movies/campbell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/genre_Fantasy">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Genre"/>
+    <rdfs:label>Fantasy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/myrick">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Daniel Myrick</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/goth">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Mia Goth</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/crimson_peak"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/wrong_turn"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/it"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/depp">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Johnny Depp</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/sleepy_hollow"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/dark_shadows"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/edward_scissorhands"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/corpse_bride"/>
+    <mo:colleagueOf rdf:resource="http://example.org/movies/ricci"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/cook">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Ali Larter</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/final_destination_2"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/house_of_wax"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/genre_Gothic">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Genre"/>
+    <rdfs:label>Gothic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/mcgowan">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Rose McGowan</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/hastie">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Jonathan Hyde</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/crimson_peak"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/biel">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Jessica Biel</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/house_of_wax"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/texas_chainsaw_massacre"/>
+    <mo:colleagueOf rdf:resource="http://example.org/movies/cook"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/blair_witch_project">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Movie"/>
+    <rdf:type rdf:resource="http://schema.org/Movie"/>
+    <dc:title>The Blair Witch Project</dc:title>
+    <schema1:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1999</schema1:datePublished>
+    <mo:releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</mo:releaseYear>
+    <mo:directedBy rdf:resource="http://example.org/movies/myrick"/>
+    <mo:producedBy rdf:resource="http://example.org/movies/dimension"/>
+    <mo:releasedIn rdf:resource="http://example.org/movies/country_USA"/>
+    <mo:hasActor rdf:resource="http://example.org/movies/ricci"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Horror"/>
+    <mo:hasGenre rdf:resource="http://example.org/movies/genre_Thriller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/lillard">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>Skeet Ulrich</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/wrong_turn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/disney">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Studio"/>
+    <rdfs:label>Walt Disney Pictures</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/burton">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Tim Burton</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/country_Germany">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Country"/>
+    <rdfs:label>Germany</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/arquette">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Actor"/>
+    <foaf:name>David Arquette</foaf:name>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream"/>
+    <mo:actedIn rdf:resource="http://example.org/movies/scream_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/genre_Slasher">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Genre"/>
+    <rdfs:label>Slasher</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/paramount">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Studio"/>
+    <rdfs:label>Paramount Pictures</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/country_UK">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Country"/>
+    <rdfs:label>UK</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/ellis">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>David R. Ellis</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/genre_Comedy">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Genre"/>
+    <rdfs:label>Comedy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/genre_Horror">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Genre"/>
+    <rdfs:label>Horror</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/schmidt">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>Rob Schmidt</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/country_Mexico">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Country"/>
+    <rdfs:label>Mexico</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/wong">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Person"/>
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Director"/>
+    <foaf:name>James Wong</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/movies/warner">
+    <rdf:type rdf:resource="http://example.org/movies/ontology#Studio"/>
+    <rdfs:label>Warner Bros.</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

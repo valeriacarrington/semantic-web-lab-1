@@ -1,0 +1,409 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ex: <http://example.org/movies/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mo: <http://example.org/movies/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:country_Germany a mo:Country ;
+    rdfs:label "Germany" .
+
+ex:country_Mexico a mo:Country ;
+    rdfs:label "Mexico" .
+
+ex:barrymore a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:scream ;
+    foaf:name "Drew Barrymore" .
+
+ex:blair_witch_project a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:myrick ;
+    mo:hasActor ex:ricci ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Thriller ;
+    mo:producedBy ex:dimension ;
+    mo:releaseYear 1999 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "The Blair Witch Project" ;
+    schema1:datePublished "1999"^^xsd:gYear .
+
+ex:collet_serra a mo:Director,
+        mo:Person ;
+    foaf:name "Jaume Collet-Serra" .
+
+ex:country_UK a mo:Country ;
+    rdfs:label "UK" .
+
+ex:del_toro a mo:Director,
+        mo:Person ;
+    foaf:name "Guillermo del Toro" .
+
+ex:ellis a mo:Director,
+        mo:Person ;
+    foaf:name "David R. Ellis" .
+
+ex:green a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:dark_shadows ;
+    foaf:name "Eva Green" .
+
+ex:hastie a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:crimson_peak ;
+    foaf:name "Jonathan Hyde" .
+
+ex:hewitt a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:final_destination ;
+    foaf:name "Jennifer Love Hewitt" .
+
+ex:lillard a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:wrong_turn ;
+    foaf:name "Skeet Ulrich" .
+
+ex:mcgowan a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:scream_2 ;
+    foaf:name "Rose McGowan" .
+
+ex:muschietti a mo:Director,
+        mo:Person ;
+    foaf:name "Andy Muschietti" .
+
+ex:myrick a mo:Director,
+        mo:Person ;
+    foaf:name "Daniel Myrick" .
+
+ex:nightmare_before_christmas a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:selick ;
+    mo:hasActor ex:ricci ;
+    mo:hasGenre ex:genre_Comedy,
+        ex:genre_Fantasy,
+        ex:genre_Gothic ;
+    mo:producedBy ex:disney ;
+    mo:releaseYear 1993 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "The Nightmare Before Christmas" ;
+    schema1:datePublished "1993"^^xsd:gYear .
+
+ex:nispel a mo:Director,
+        mo:Person ;
+    foaf:name "Marcus Nispel" .
+
+ex:paramount a mo:Studio ;
+    rdfs:label "Paramount Pictures" .
+
+ex:schmidt a mo:Director,
+        mo:Person ;
+    foaf:name "Rob Schmidt" .
+
+ex:selick a mo:Director,
+        mo:Person ;
+    foaf:name "Henry Selick" .
+
+ex:skarsgard a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:it ;
+    foaf:name "Bill Skarsgard" .
+
+ex:texas_chainsaw_massacre a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:nispel ;
+    mo:hasActor ex:biel ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Slasher ;
+    mo:producedBy ex:newline ;
+    mo:releaseYear 2003 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "The Texas Chainsaw Massacre" ;
+    schema1:datePublished "2003"^^xsd:gYear .
+
+ex:wong a mo:Director,
+        mo:Person ;
+    foaf:name "James Wong" .
+
+ex:arquette a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:scream,
+        ex:scream_2 ;
+    foaf:name "David Arquette" .
+
+ex:biel a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:house_of_wax,
+        ex:texas_chainsaw_massacre ;
+    mo:colleagueOf ex:cook ;
+    foaf:name "Jessica Biel" .
+
+ex:bonham_carter a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:corpse_bride,
+        ex:dark_shadows ;
+    foaf:name "Helena Bonham Carter" .
+
+ex:corpse_bride a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:burton ;
+    mo:hasActor ex:bonham_carter,
+        ex:depp ;
+    mo:hasGenre ex:genre_Comedy,
+        ex:genre_Fantasy,
+        ex:genre_Gothic ;
+    mo:producedBy ex:warner ;
+    mo:releaseYear 2005 ;
+    mo:releasedIn ex:country_UK ;
+    dc:title "Corpse Bride" ;
+    schema1:datePublished "2005"^^xsd:gYear .
+
+ex:craven a mo:Director,
+        mo:Person ;
+    foaf:name "Wes Craven" .
+
+ex:crimson_peak a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:del_toro ;
+    mo:hasActor ex:goth,
+        ex:hastie ;
+    mo:hasGenre ex:genre_Gothic,
+        ex:genre_Horror,
+        ex:genre_Thriller ;
+    mo:producedBy ex:legendary ;
+    mo:releaseYear 2015 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Crimson Peak" ;
+    schema1:datePublished "2015"^^xsd:gYear .
+
+ex:disney a mo:Studio ;
+    rdfs:label "Walt Disney Pictures" .
+
+ex:edward_scissorhands a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:burton ;
+    mo:hasActor ex:depp,
+        ex:ricci ;
+    mo:hasGenre ex:genre_Fantasy,
+        ex:genre_Gothic ;
+    mo:producedBy ex:disney ;
+    mo:releaseYear 1990 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Edward Scissorhands" ;
+    schema1:datePublished "1990"^^xsd:gYear .
+
+ex:final_destination a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:wong ;
+    mo:hasActor ex:hewitt,
+        ex:sadler ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Thriller ;
+    mo:producedBy ex:newline ;
+    mo:releaseYear 2000 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Final Destination" ;
+    schema1:datePublished "2000"^^xsd:gYear .
+
+ex:final_destination_2 a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:ellis ;
+    mo:hasActor ex:cook,
+        ex:sadler ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Thriller ;
+    mo:producedBy ex:newline ;
+    mo:releaseYear 2003 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Final Destination 2" ;
+    schema1:datePublished "2003"^^xsd:gYear .
+
+ex:house_of_wax a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:collet_serra ;
+    mo:hasActor ex:biel,
+        ex:cook ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Slasher,
+        ex:genre_Thriller ;
+    mo:producedBy ex:warner ;
+    mo:releaseYear 2005 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "House of Wax" ;
+    schema1:datePublished "2005"^^xsd:gYear .
+
+ex:it a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:muschietti ;
+    mo:hasActor ex:goth,
+        ex:skarsgard ;
+    mo:hasGenre ex:genre_Fantasy,
+        ex:genre_Horror,
+        ex:genre_Thriller ;
+    mo:producedBy ex:warner ;
+    mo:releaseYear 2017 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "It" ;
+    schema1:datePublished "2017"^^xsd:gYear .
+
+ex:legendary a mo:Studio ;
+    rdfs:label "Legendary Pictures" .
+
+ex:sadler a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:final_destination,
+        ex:final_destination_2 ;
+    foaf:name "William Sadler" .
+
+ex:sleepy_hollow a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:burton ;
+    mo:hasActor ex:depp,
+        ex:ricci ;
+    mo:hasGenre ex:genre_Fantasy,
+        ex:genre_Gothic,
+        ex:genre_Horror ;
+    mo:producedBy ex:paramount ;
+    mo:releaseYear 1999 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Sleepy Hollow" ;
+    schema1:datePublished "1999"^^xsd:gYear .
+
+ex:wrong_turn a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:schmidt ;
+    mo:hasActor ex:goth,
+        ex:lillard ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Slasher,
+        ex:genre_Thriller ;
+    mo:producedBy ex:legendary ;
+    mo:releaseYear 2003 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Wrong Turn" ;
+    schema1:datePublished "2003"^^xsd:gYear .
+
+ex:campbell a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:scream,
+        ex:scream_2 ;
+    mo:colleagueOf ex:cox ;
+    foaf:name "Neve Campbell" .
+
+ex:cook a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:final_destination_2,
+        ex:house_of_wax ;
+    foaf:name "Ali Larter" .
+
+ex:cox a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:scream,
+        ex:scream_2 ;
+    mo:colleagueOf ex:campbell ;
+    foaf:name "Courteney Cox" .
+
+ex:dark_shadows a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:burton ;
+    mo:hasActor ex:bonham_carter,
+        ex:depp,
+        ex:green ;
+    mo:hasGenre ex:genre_Comedy,
+        ex:genre_Gothic,
+        ex:genre_Horror ;
+    mo:producedBy ex:warner ;
+    mo:releaseYear 2012 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Dark Shadows" ;
+    schema1:datePublished "2012"^^xsd:gYear .
+
+ex:dimension a mo:Studio ;
+    rdfs:label "Dimension Films" .
+
+ex:genre_Comedy a mo:Genre ;
+    rdfs:label "Comedy" .
+
+ex:goth a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:crimson_peak,
+        ex:it,
+        ex:wrong_turn ;
+    foaf:name "Mia Goth" .
+
+ex:newline a mo:Studio ;
+    rdfs:label "New Line Cinema" .
+
+ex:burton a mo:Director,
+        mo:Person ;
+    foaf:name "Tim Burton" .
+
+ex:depp a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:corpse_bride,
+        ex:dark_shadows,
+        ex:edward_scissorhands,
+        ex:sleepy_hollow ;
+    mo:colleagueOf ex:ricci ;
+    foaf:name "Johnny Depp" .
+
+ex:scream a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:craven ;
+    mo:hasActor ex:arquette,
+        ex:barrymore,
+        ex:campbell,
+        ex:cox ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Slasher ;
+    mo:producedBy ex:dimension ;
+    mo:releaseYear 1996 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Scream" ;
+    schema1:datePublished "1996"^^xsd:gYear .
+
+ex:scream_2 a mo:Movie,
+        schema1:Movie ;
+    mo:directedBy ex:craven ;
+    mo:hasActor ex:arquette,
+        ex:campbell,
+        ex:cox,
+        ex:mcgowan ;
+    mo:hasGenre ex:genre_Horror,
+        ex:genre_Slasher ;
+    mo:producedBy ex:dimension ;
+    mo:releaseYear 1997 ;
+    mo:releasedIn ex:country_USA ;
+    dc:title "Scream 2" ;
+    schema1:datePublished "1997"^^xsd:gYear .
+
+ex:warner a mo:Studio ;
+    rdfs:label "Warner Bros." .
+
+ex:genre_Fantasy a mo:Genre ;
+    rdfs:label "Fantasy" .
+
+ex:genre_Slasher a mo:Genre ;
+    rdfs:label "Slasher" .
+
+ex:ricci a mo:Actor,
+        mo:Person ;
+    mo:actedIn ex:blair_witch_project,
+        ex:edward_scissorhands,
+        ex:nightmare_before_christmas,
+        ex:sleepy_hollow ;
+    foaf:name "Christina Ricci" .
+
+ex:genre_Gothic a mo:Genre ;
+    rdfs:label "Gothic" .
+
+ex:genre_Thriller a mo:Genre ;
+    rdfs:label "Thriller" .
+
+ex:genre_Horror a mo:Genre ;
+    rdfs:label "Horror" .
+
+ex:country_USA a mo:Country ;
+    rdfs:label "USA" .
+

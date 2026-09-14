@@ -1,0 +1,342 @@
+<http://example.org/movies/green> <http://xmlns.com/foaf/0.1/name> "Eva Green" .
+<http://example.org/movies/sadler> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/final_destination> .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Fantasy> .
+<http://example.org/movies/hewitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Gothic> .
+<http://example.org/movies/dimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimension Films" .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/mcgowan> .
+<http://example.org/movies/country_USA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Country> .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Thriller> .
+<http://example.org/movies/house_of_wax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/muschietti> .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/arquette> .
+<http://example.org/movies/newline> <http://www.w3.org/2000/01/rdf-schema#label> "New Line Cinema" .
+<http://example.org/movies/campbell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/depp> .
+<http://example.org/movies/crimson_peak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/genre_Thriller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Genre> .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/cox> .
+<http://example.org/movies/muschietti> <http://xmlns.com/foaf/0.1/name> "Andy Muschietti" .
+<http://example.org/movies/barrymore> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream> .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/newline> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/del_toro> .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/sadler> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/legendary> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Comedy> .
+<http://example.org/movies/nightmare_before_christmas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/nispel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://schema.org/datePublished> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/it> <http://schema.org/datePublished> "2017"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/hewitt> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/final_destination> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/collet_serra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Comedy> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/wong> .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/final_destination_2> <http://schema.org/datePublished> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/legendary> <http://www.w3.org/2000/01/rdf-schema#label> "Legendary Pictures" .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/cox> .
+<http://example.org/movies/final_destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#releaseYear> "2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/edward_scissorhands> <http://purl.org/dc/elements/1.1/title> "Edward Scissorhands" .
+<http://example.org/movies/bonham_carter> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/dark_shadows> .
+<http://example.org/movies/craven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/hewitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/ricci> <http://xmlns.com/foaf/0.1/name> "Christina Ricci" .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/disney> .
+<http://example.org/movies/selick> <http://xmlns.com/foaf/0.1/name> "Henry Selick" .
+<http://example.org/movies/del_toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/sadler> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/final_destination_2> .
+<http://example.org/movies/skarsgard> <http://xmlns.com/foaf/0.1/name> "Bill Skarsgard" .
+<http://example.org/movies/del_toro> <http://xmlns.com/foaf/0.1/name> "Guillermo del Toro" .
+<http://example.org/movies/cox> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream> .
+<http://example.org/movies/genre_Fantasy> <http://www.w3.org/2000/01/rdf-schema#label> "Fantasy" .
+<http://example.org/movies/newline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Studio> .
+<http://example.org/movies/campbell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/scream_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/ricci> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/sleepy_hollow> .
+<http://example.org/movies/myrick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/goth> .
+<http://example.org/movies/goth> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/it> .
+<http://example.org/movies/depp> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/edward_scissorhands> .
+<http://example.org/movies/cook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/genre_Gothic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Genre> .
+<http://example.org/movies/bonham_carter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/newline> .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Fantasy> .
+<http://example.org/movies/mcgowan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/dark_shadows> <http://purl.org/dc/elements/1.1/title> "Dark Shadows" .
+<http://example.org/movies/cook> <http://xmlns.com/foaf/0.1/name> "Ali Larter" .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Gothic> .
+<http://example.org/movies/depp> <http://example.org/movies/ontology#colleagueOf> <http://example.org/movies/ricci> .
+<http://example.org/movies/legendary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Studio> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#releaseYear> "2015"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/ricci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Thriller> .
+<http://example.org/movies/hastie> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/crimson_peak> .
+<http://example.org/movies/muschietti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/final_destination> <http://schema.org/datePublished> "2000"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/dark_shadows> <http://schema.org/datePublished> "2012"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Gothic> .
+<http://example.org/movies/house_of_wax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/biel> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/texas_chainsaw_massacre> .
+<http://example.org/movies/ricci> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/edward_scissorhands> .
+<http://example.org/movies/dark_shadows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/blair_witch_project> <http://example.org/movies/ontology#releaseYear> "1999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/craven> .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/campbell> .
+<http://example.org/movies/crimson_peak> <http://schema.org/datePublished> "2015"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/nispel> .
+<http://example.org/movies/selick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/lillard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/scream> <http://schema.org/datePublished> "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/skarsgard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/warner> .
+<http://example.org/movies/sleepy_hollow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/goth> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/crimson_peak> .
+<http://example.org/movies/sleepy_hollow> <http://purl.org/dc/elements/1.1/title> "Sleepy Hollow" .
+<http://example.org/movies/disney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Studio> .
+<http://example.org/movies/burton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_UK> .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/craven> .
+<http://example.org/movies/nightmare_before_christmas> <http://schema.org/datePublished> "1993"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/cox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/cook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/warner> .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/green> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/bonham_carter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/burton> .
+<http://example.org/movies/nispel> <http://xmlns.com/foaf/0.1/name> "Marcus Nispel" .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/campbell> .
+<http://example.org/movies/blair_witch_project> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/ricci> .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/dimension> .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/country_Germany> <http://www.w3.org/2000/01/rdf-schema#label> "Germany" .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/paramount> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/biel> .
+<http://example.org/movies/arquette> <http://xmlns.com/foaf/0.1/name> "David Arquette" .
+<http://example.org/movies/genre_Slasher> <http://www.w3.org/2000/01/rdf-schema#label> "Slasher" .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/burton> .
+<http://example.org/movies/del_toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/disney> <http://www.w3.org/2000/01/rdf-schema#label> "Walt Disney Pictures" .
+<http://example.org/movies/arquette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/biel> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/house_of_wax> .
+<http://example.org/movies/biel> <http://xmlns.com/foaf/0.1/name> "Jessica Biel" .
+<http://example.org/movies/it> <http://example.org/movies/ontology#releaseYear> "2017"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/campbell> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream> .
+<http://example.org/movies/depp> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/dark_shadows> .
+<http://example.org/movies/myrick> <http://xmlns.com/foaf/0.1/name> "Daniel Myrick" .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#releaseYear> "1999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/country_Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Country> .
+<http://example.org/movies/myrick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/campbell> <http://xmlns.com/foaf/0.1/name> "Neve Campbell" .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/ricci> .
+<http://example.org/movies/paramount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Studio> .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/craven> <http://xmlns.com/foaf/0.1/name> "Wes Craven" .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/dimension> .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/scream_2> <http://schema.org/datePublished> "1997"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/genre_Gothic> <http://www.w3.org/2000/01/rdf-schema#label> "Gothic" .
+<http://example.org/movies/lillard> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/wrong_turn> .
+<http://example.org/movies/country_UK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Country> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/newline> .
+<http://example.org/movies/wrong_turn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/cook> .
+<http://example.org/movies/dark_shadows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/dimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Studio> .
+<http://example.org/movies/muschietti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/depp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/country_UK> <http://www.w3.org/2000/01/rdf-schema#label> "UK" .
+<http://example.org/movies/genre_Thriller> <http://www.w3.org/2000/01/rdf-schema#label> "Thriller" .
+<http://example.org/movies/corpse_bride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#releaseYear> "1990"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/biel> .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/ricci> .
+<http://example.org/movies/bonham_carter> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/corpse_bride> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/schmidt> .
+<http://example.org/movies/hastie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/hastie> .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/depp> .
+<http://example.org/movies/ellis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/scream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/genre_Comedy> <http://www.w3.org/2000/01/rdf-schema#label> "Comedy" .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#releaseYear> "2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/campbell> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream_2> .
+<http://example.org/movies/country_USA> <http://www.w3.org/2000/01/rdf-schema#label> "USA" .
+<http://example.org/movies/goth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/lillard> .
+<http://example.org/movies/ellis> <http://xmlns.com/foaf/0.1/name> "David R. Ellis" .
+<http://example.org/movies/genre_Horror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Genre> .
+<http://example.org/movies/campbell> <http://example.org/movies/ontology#colleagueOf> <http://example.org/movies/cox> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#releaseYear> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/hewitt> <http://xmlns.com/foaf/0.1/name> "Jennifer Love Hewitt" .
+<http://example.org/movies/barrymore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/crimson_peak> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/barrymore> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/depp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/mcgowan> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream_2> .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/depp> .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/bonham_carter> .
+<http://example.org/movies/schmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/genre_Comedy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Genre> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Gothic> .
+<http://example.org/movies/house_of_wax> <http://purl.org/dc/elements/1.1/title> "House of Wax" .
+<http://example.org/movies/barrymore> <http://xmlns.com/foaf/0.1/name> "Drew Barrymore" .
+<http://example.org/movies/country_Mexico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Country> .
+<http://example.org/movies/blair_witch_project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/final_destination_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Fantasy> .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Fantasy> .
+<http://example.org/movies/corpse_bride> <http://schema.org/datePublished> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/goth> .
+<http://example.org/movies/wong> <http://xmlns.com/foaf/0.1/name> "James Wong" .
+<http://example.org/movies/texas_chainsaw_massacre> <http://example.org/movies/ontology#releaseYear> "2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Slasher> .
+<http://example.org/movies/warner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Studio> .
+<http://example.org/movies/final_destination_2> <http://purl.org/dc/elements/1.1/title> "Final Destination 2" .
+<http://example.org/movies/wrong_turn> <http://schema.org/datePublished> "2003"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://purl.org/dc/elements/1.1/title> "The Texas Chainsaw Massacre" .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Thriller> .
+<http://example.org/movies/house_of_wax> <http://schema.org/datePublished> "2005"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/ricci> .
+<http://example.org/movies/it> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/edward_scissorhands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/goth> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/wrong_turn> .
+<http://example.org/movies/scream_2> <http://purl.org/dc/elements/1.1/title> "Scream 2" .
+<http://example.org/movies/cox> <http://xmlns.com/foaf/0.1/name> "Courteney Cox" .
+<http://example.org/movies/cox> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream_2> .
+<http://example.org/movies/ellis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/sleepy_hollow> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/burton> .
+<http://example.org/movies/genre_Slasher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Genre> .
+<http://example.org/movies/final_destination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/depp> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/corpse_bride> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#releaseYear> "2005"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/depp> <http://xmlns.com/foaf/0.1/name> "Johnny Depp" .
+<http://example.org/movies/arquette> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream> .
+<http://example.org/movies/wong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/bonham_carter> <http://xmlns.com/foaf/0.1/name> "Helena Bonham Carter" .
+<http://example.org/movies/selick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Slasher> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/collet_serra> .
+<http://example.org/movies/ricci> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/biel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/burton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/depp> .
+<http://example.org/movies/sleepy_hollow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/warner> <http://www.w3.org/2000/01/rdf-schema#label> "Warner Bros." .
+<http://example.org/movies/lillard> <http://xmlns.com/foaf/0.1/name> "Skeet Ulrich" .
+<http://example.org/movies/skarsgard> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/it> .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/ellis> .
+<http://example.org/movies/mcgowan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/cook> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/house_of_wax> .
+<http://example.org/movies/sadler> <http://xmlns.com/foaf/0.1/name> "William Sadler" .
+<http://example.org/movies/schmidt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Comedy> .
+<http://example.org/movies/corpse_bride> <http://purl.org/dc/elements/1.1/title> "Corpse Bride" .
+<http://example.org/movies/nightmare_before_christmas> <http://purl.org/dc/elements/1.1/title> "The Nightmare Before Christmas" .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#releaseYear> "1993"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/depp> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/sleepy_hollow> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/hewitt> .
+<http://example.org/movies/blair_witch_project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/selick> .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/disney> .
+<http://example.org/movies/final_destination_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#releaseYear> "2005"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/ricci> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/nightmare_before_christmas> .
+<http://example.org/movies/collet_serra> <http://xmlns.com/foaf/0.1/name> "Jaume Collet-Serra" .
+<http://example.org/movies/lillard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/skarsgard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/biel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/schmidt> <http://xmlns.com/foaf/0.1/name> "Rob Schmidt" .
+<http://example.org/movies/blair_witch_project> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/myrick> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Slasher> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/green> .
+<http://example.org/movies/arquette> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/scream_2> .
+<http://example.org/movies/cox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/it> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/cox> <http://example.org/movies/ontology#colleagueOf> <http://example.org/movies/campbell> .
+<http://example.org/movies/edward_scissorhands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/green> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/mcgowan> <http://xmlns.com/foaf/0.1/name> "Rose McGowan" .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/goth> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Gothic> .
+<http://example.org/movies/biel> <http://example.org/movies/ontology#colleagueOf> <http://example.org/movies/cook> .
+<http://example.org/movies/genre_Horror> <http://www.w3.org/2000/01/rdf-schema#label> "Horror" .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#directedBy> <http://example.org/movies/burton> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/warner> .
+<http://example.org/movies/wrong_turn> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Slasher> .
+<http://example.org/movies/sadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/nightmare_before_christmas> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Fantasy> .
+<http://example.org/movies/ricci> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/blair_witch_project> .
+<http://example.org/movies/wrong_turn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/scream_2> <http://example.org/movies/ontology#releaseYear> "1997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/legendary> .
+<http://example.org/movies/green> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/dark_shadows> .
+<http://example.org/movies/arquette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/paramount> <http://www.w3.org/2000/01/rdf-schema#label> "Paramount Pictures" .
+<http://example.org/movies/texas_chainsaw_massacre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Movie> .
+<http://example.org/movies/blair_witch_project> <http://schema.org/datePublished> "1999"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/wong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/bonham_carter> .
+<http://example.org/movies/corpse_bride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/wrong_turn> <http://purl.org/dc/elements/1.1/title> "Wrong Turn" .
+<http://example.org/movies/scream> <http://purl.org/dc/elements/1.1/title> "Scream" .
+<http://example.org/movies/nispel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/blair_witch_project> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/genre_Fantasy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Genre> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Thriller> .
+<http://example.org/movies/collet_serra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/burton> <http://xmlns.com/foaf/0.1/name> "Tim Burton" .
+<http://example.org/movies/nightmare_before_christmas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Thriller> .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Slasher> .
+<http://example.org/movies/blair_witch_project> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/dimension> .
+<http://example.org/movies/corpse_bride> <http://example.org/movies/ontology#producedBy> <http://example.org/movies/warner> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/skarsgard> .
+<http://example.org/movies/scream> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/hastie> <http://xmlns.com/foaf/0.1/name> "Jonathan Hyde" .
+<http://example.org/movies/craven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Director> .
+<http://example.org/movies/crimson_peak> <http://purl.org/dc/elements/1.1/title> "Crimson Peak" .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#releaseYear> "1996"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/final_destination> <http://purl.org/dc/elements/1.1/title> "Final Destination" .
+<http://example.org/movies/sadler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/it> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/crimson_peak> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/edward_scissorhands> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Gothic> .
+<http://example.org/movies/country_Mexico> <http://www.w3.org/2000/01/rdf-schema#label> "Mexico" .
+<http://example.org/movies/blair_witch_project> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/barrymore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Actor> .
+<http://example.org/movies/blair_witch_project> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Thriller> .
+<http://example.org/movies/scream_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Movie> .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Horror> .
+<http://example.org/movies/hastie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
+<http://example.org/movies/final_destination_2> <http://example.org/movies/ontology#hasGenre> <http://example.org/movies/genre_Thriller> .
+<http://example.org/movies/final_destination> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/sadler> .
+<http://example.org/movies/scream> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/arquette> .
+<http://example.org/movies/blair_witch_project> <http://purl.org/dc/elements/1.1/title> "The Blair Witch Project" .
+<http://example.org/movies/cook> <http://example.org/movies/ontology#actedIn> <http://example.org/movies/final_destination_2> .
+<http://example.org/movies/goth> <http://xmlns.com/foaf/0.1/name> "Mia Goth" .
+<http://example.org/movies/edward_scissorhands> <http://schema.org/datePublished> "1990"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/texas_chainsaw_massacre> <http://example.org/movies/ontology#releasedIn> <http://example.org/movies/country_USA> .
+<http://example.org/movies/it> <http://purl.org/dc/elements/1.1/title> "It" .
+<http://example.org/movies/sleepy_hollow> <http://schema.org/datePublished> "1999"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://example.org/movies/house_of_wax> <http://example.org/movies/ontology#hasActor> <http://example.org/movies/cook> .
+<http://example.org/movies/dark_shadows> <http://example.org/movies/ontology#releaseYear> "2012"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/movies/goth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/movies/ontology#Person> .
